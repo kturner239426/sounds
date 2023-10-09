@@ -6,11 +6,11 @@ function start()
 }
 
 
-function stop()
+function stop() //if start button is pressed sound will not play being that start means to play//
 {
 
     document.getElementById("startButton").disabled = false;
-    document.getElementById("stopButton").disabled = true;
+    document.getElementById("stopButton").disabled = true;     //if stop button is pressed rain sound will stop playing//
 
 }
 function Rain() //rain sound plays on command//
